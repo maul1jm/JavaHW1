@@ -1,5 +1,3 @@
-/*Name this external file gallery.js*/
-
 console.log("Guten Tag");
 console.log("Hello world!");
 
