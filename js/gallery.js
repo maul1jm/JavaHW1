@@ -1,5 +1,7 @@
 /*Name this external file gallery.js*/
 
+console.log(Guten Tag);
+
 function upDate(previewPic){
  /* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
@@ -21,3 +23,5 @@ function upDate(previewPic){
     */
 		
 	}
+
+    
