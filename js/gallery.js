@@ -8,9 +8,8 @@ console.log("Guten Tag");
 
 console.log(previewPic);
 
-document.getElementById('image').innerHTML = previewPic.alt; //previewPic will get "this" variable and so previewPic.alt will point towards the content in alt.
-document.getElementById('image').style.backgroundImage = "url('" + previewPic.src +"')"; //this url will point towards the src url of this id.
-// document.getElementById('image').style.backgroundColor = 'red';
+document.getElementById('image').innerHTML = previewPic.alt; 
+document.getElementById('image').style.backgroundImage = "url('" + previewPic.src +"')"; 
 	/* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
     to the source file of the preview image
